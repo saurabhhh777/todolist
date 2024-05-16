@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    /* background-color: #CDE8E5; */
+    background-image: url(todoimg.jpg);
+    background-size: cover;
+}
+.content{
+    border-radius: 30px;
+    /* background-color: #7AB2B2; */
+    margin-top: 15%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background: rgab(0,0,0,0.2);
+    backdrop-filter: saturate(180%) blur(10px);
+    /* filter: blur(6px); */
+}
+h1{
+    text-align: center;
+}
+.inp{
+    text-align: center;
+}
+.inps{
+    border-radius: 10px;
+    margin: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bt{
+    margin-left: 2px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul{
+    /* margin-left: 45%; */
+    list-style-position: inside;
+}
+ul>li{
+    size: 4px;
+}
+ul>li>button{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
